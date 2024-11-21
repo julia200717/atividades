@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário com JS</title>
+</head>
+<body>
+    <div class="container">
+       <h1>Criar uma conta nova</h1>
+       <p>É rápido e fácil</p>
+
+       <form class="formulario">
+        <label for="nome">Nome</label>
+        <input id="nome" type="text">
+
+        <label for="apelido">Apelido</label>
+        <input id="apelido"type="text">
+
+        <label for="nascimento">Data de nascimento</label>
+        <input type="date">
+
+        <label for="genero">Gênero</label>
+        <select name="genero" id="genero">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <label for="email">Email</label>
+        <input id="email"type="email">
+
+        <label for="senha">Senha</label>
+        <input id="senha" type="password">
+
+        <button type="button" onclick="cadastrar()">Cadastrar</button>
+       </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

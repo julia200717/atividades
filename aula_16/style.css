@@ -1,0 +1,35 @@
+.navbar{
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+@media(max-width:750px){
+     .navbar{
+        flex-direction: column;
+        align-items: center;
+     }
+}
+
+body{
+    background-color: aqua;
+}
+
+@media (max-width: 700px){
+    body{
+        background-color: burlywood;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1200px){
+    body{
+        background-color: blueviolet;
+    }
+}

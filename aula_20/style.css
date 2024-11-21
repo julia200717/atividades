@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: gainsboro;
+}
+
+.container, .formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+
+input, select{
+    margin-bottom: 10px;
+}
+
+.erro{
+    border-color: red;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style:solid ;
+}
+
